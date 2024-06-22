@@ -41,7 +41,7 @@ So now this directory is tracked by git and you can use its commands
 
     And now you will connect your online repository to your local repository.
 
-7. git push -all origin or git push -u origin master. #-u will save the settings of the push to always be on the master branch (I will explain)
+7. git push --all origin or git push -u origin master. #-u will save the settings of the push to always be on the master branch (I will explain)
     the first one actually worked for me but the second one can work. Unfortunately I am not so sure of when to use which one but try either and whatever works is great.
     But what I do know is that the second didn't work but because I did not link my online repository as I did here.
     What I did was through the welcome page on VS, I used clone git repository. 
