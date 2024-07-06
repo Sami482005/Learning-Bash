@@ -1,12 +1,12 @@
-### Why Repositories
+# Why Repositories
 Repositories can be a place where several people collaborate on a certain project, instead of having to send each other zip files, this is an easier way of collaborating.
 The best way to do it, is having your own repository on your local machine, where the files that you are creating and for you, and connecting it to an online repository that everyone can update and download changes that other people made from.
 Git is powerful enough to be able to make these changes and merges and you don't need to know how.
 
-# Note:
+###### Note:
 This will explain how you can create a repository through your VS code.
 
-## Connecting Local Repository to online repository on Github
+# Connecting Local Repository to online repository on Github
 
 One way to do this is to create your local repository through the terminal:
 
@@ -47,7 +47,7 @@ So now this directory is tracked by git and you can use its commands
     What I did was through the welcome page on VS, I used clone git repository. 
     And it made me login into github account and this is how I'm working. 
 
-### Online Repos Problems:
+## Online Repos Problems:
 If you had any problems pushing unto the online repo, you might have to set up a username, you should have authenticated yourself on your machine first but do try this on your terminal
 git config --global user.name "Put the name that will identify you every time you push or pull"
 
@@ -55,7 +55,7 @@ git config --global user.email "email on git"
 
 If this doesn't work go on the internet and lookup how to authenticate
 
-## Status:
+### Status:
 git status #shows you what kind of changes have been made.
 
 ## Branches
@@ -78,7 +78,7 @@ The master won't have the changes specific to the other branch.
 
 
 
-## Pull
+# Pull
 git pull origin master: pull from the remote the master branch
 
 updates local repo.
@@ -88,10 +88,19 @@ It won't allow you to push, so you need to pull first.
 They will tell you that there is a configuration error. And the file that is downloaded will show you an error message, we need to delete whatever we need to delete and keep the file the way that we want it to appear. Which will fix it.
 Then we add and commit the changes and the push to the remote repo.
 
-## Pushing secondary branch:
+# Pushing secondary branch:
 
 git checkout other branch.
 
 git push origin newBranch.
 
 make a pull request.
+
+
+# Disconnecting
+to kow which remote repository is connected to your local repo
+    git remote -v
+To remove it
+    git remote remove origin
+
+You can have a repo that is connected to an online repo, and one directory in that repo is connected to another online repo because you cloned an online repo into that directory; that directory is called a submodule.
