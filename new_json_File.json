@@ -1,0 +1,57 @@
+{
+    "plasmidfinder": {
+        "user_input": {
+            "filename(s)": [
+                "test/57158258.fasta"
+            ],
+            "method": "blast",
+            "file_format": "fasta"
+        },
+        "run_info": {
+            "date": "05.07.2024",
+            "time": "22:14:50"
+        },
+        "results": {
+            "Enterobacteriales": {
+                "enterobacteriales": {
+                    "AP006726.1 Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044 plasmid pK2044 DNA,complete genome:147141..147710:IncHI1B(pNDM-MAR)_1__JN420336:99.298246": {
+                        "plasmid": "IncHI1B(pNDM-MAR)",
+                        "identity": 99.3,
+                        "HSP_length": 570,
+                        "template_length": 570,
+                        "position_in_ref": "1..570",
+                        "contig_name": "AP006726.1 Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044 plasmid pK2044 DNA,complete genome",
+                        "positions_in_contig": "147141..147710",
+                        "note": "",
+                        "accession": "JN420336",
+                        "coverage": 100.0,
+                        "hit_id": "AP006726.1 Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044 plasmid pK2044 DNA,complete genome:147141..147710:IncHI1B(pNDM-MAR)_1__JN420336:99.298246"
+                    },
+                    "AP006726.1 Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044 plasmid pK2044 DNA,complete genome:128282..128841:repB_KLEB_VIR_AP006726:100.000000": {
+                        "plasmid": "repB",
+                        "identity": 100.0,
+                        "HSP_length": 560,
+                        "template_length": 560,
+                        "position_in_ref": "1..560",
+                        "contig_name": "AP006726.1 Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044 plasmid pK2044 DNA,complete genome",
+                        "positions_in_contig": "128282..128841",
+                        "note": "VIR",
+                        "accession": "AP006726",
+                        "coverage": 100.0,
+                        "hit_id": "AP006726.1 Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044 plasmid pK2044 DNA,complete genome:128282..128841:repB_KLEB_VIR_AP006726:100.000000"
+                    }
+                }
+            },
+            "Gram Positive": {
+                "Inc18": "No hit found",
+                "NT_Rep": "No hit found",
+                "Rep1": "No hit found",
+                "Rep2": "No hit found",
+                "Rep3": "No hit found",
+                "RepA_N": "No hit found",
+                "RepL": "No hit found",
+                "Rep_trans": "No hit found"
+            }
+        }
+    }
+}
