@@ -65,16 +65,17 @@ Instead what we do is work on another branch which has all the features and upda
 The main branch that is containing the final product(S) is called the master branch.
 
 to create a new branch use:
-git checkout -b <name_of_the_new_branch>
+`git checkout -b <name_of_the_new_branch>`
 -b stands for creating a new branch
 all changes on master were copied 
 git checkout master: goes to master branch
 
 If any changes were made on the master branch and we want to update the secondary branch what we do is:
 
-git merge master: takes all changes from master into new branch
+`git merge master`: takes all changes from master into new branch
 The master won't have the changes specific to the other branch.
 
+`git branch`: shows you all the branches of the repository and show you which branch you're working on.
 
 
 
