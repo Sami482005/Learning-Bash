@@ -58,26 +58,44 @@ If this doesn't work go on the internet and lookup how to authenticate
 ### Status:
 git status #shows you what kind of changes have been made.
 
-## Branches
+# Branches
 
 In repositories, maybe you don't want to save your changes to the main branch where everyone can download it. Because it might be wrong and will mess everything up for everyone. 
 Instead what we do is work on another branch which has all the features and updates of the main branch but it has the features in progress. This new branch can be later merged into the main branch and can be constantly updated from the main branch with new features.
 The main branch that is containing the final product(S) is called the master branch.
 
 to create a new branch use:
-`git checkout -b <name_of_the_new_branch>`
--b stands for creating a new branch
-all changes on master were copied 
-git checkout master: goes to master branch
+`git branch <name_of_the_new_branch>`
+New Branch is created.
+By Default: New branch is up to date with HEAD of main branch
 
-If any changes were made on the master branch and we want to update the secondary branch what we do is:
+`git checkout <name_Of_Branch>`
+Goes to a specific branch
 
-`git merge master`: takes all changes from master into new branch
-The master won't have the changes specific to the other branch.
+`git checkout -b <name_of_branch>` 
+Creates a new branch and moves to it.
 
-`git branch`: shows you all the branches of the repository and show you which branch you're working on.
+`git merge origin/new_branch_name`
+Takes all the changes from the new branch into the branch you are currently in.
 
+`git branch`
+Shows you all the branches of the repository.
+GIt shows an asterisk mark before currently checked out branch.
 
+`git branch -D <Branch_name>`
+Deletes a branch
+
+`git branch -m <New_name>`
+Renames the branch you are currently in
+
+`git push origin <new_branch>`
+Pushes changes to the other branch.
+
+`git log origin/new_branch_name -2`
+Allows a user to see the commit message the other user is performing on that new branch.
+
+`git diff`
+Reveals differences between branches
 
 # Pull
 git pull origin master: pull from the remote the master branch
